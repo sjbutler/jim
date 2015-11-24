@@ -26,33 +26,33 @@ from the command line with the command: java -jar [path_to_jar]jim.jar
 
 JIM takes the following  command line arguments:
 
- -d     Specifies the path to an exisiting database, or the path to a database 
+ **-d**     Specifies the path to an exisiting database, or the path to a database 
         to be created. -d is a compulsory argument
         
- -g     Includes the parsing of generated source code. (optional
+ **-g**     Includes the parsing of generated source code. (optional
  
- --min  The minimum number of threads to use for the parsers. (default -min=10)
+ **--min**  The minimum number of threads to use for the parsers. (default -min=10)
  
- --max  The maximum number of threads to use for the parsers. (default -max=20)
+ **--max**  The maximum number of threads to use for the parsers. (default -max=20)
         Both --min and --max are optional, but the relationship min >= 1 
         and max >= min must be true
         
- -p     The name of the project. This is recorded in the database to facilitate 
+ **-p**     The name of the project. This is recorded in the database to facilitate 
         access to data for a specific project in combination with the value of 
         the -v flag. -p is compulsory and the string cannot contain spaces or 
         hyphens.
         
- -t     Includes test files for parsing. (optional)
+ **-t**     Includes test files for parsing. (optional)
  
- -v     Specifies a version string for the project specified using -p. 
+ **-v**     Specifies a version string for the project specified using -p. 
         -v is compulsory and the string cannot contain spaces or hyphens.
         
- --intt-recursive  Causes the name tokeniser to try to tokenise strings it 
+ **--intt-recursive**  Causes the name tokeniser to try to tokenise strings it 
         doesn't recognise that contain no typographical token boundaries, 
         e.g. Outputfilename is analysed and tokenised
         
- --intt-modal-expansion Causes the identifier name tokeniser to expand negated 
-        modal verbs, e.g. 'cant' is exapnded to 'can not'
+ **--intt-modal-expansion** Causes the identifier name tokeniser to expand negated 
+        modal verbs, e.g. 'cant' is expanded to 'can not'
  
 The command is followed by a path for JIM to search for Java source code. 
 For example:

@@ -25,7 +25,7 @@ from the command line with the command: java -jar [path_to_jar]jim.jar
 ## Running
 
 JIM takes the following  command line arguments:
-
+------|---------------------------
  -d   | Specifies the path to an exisiting database, or the path to a database to be created. -d is a compulsory argument
  -g   | Includes the parsing of generated source code. (optional)
  --min| The minimum number of threads to use for the parsers. (default -min=10)

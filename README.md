@@ -81,7 +81,8 @@ source software under the terms of the Apapche Licence v2.0, a copy of which
 is included with the source code.
 
 Any use of JIM to support research should be attributed by referencing:  
-[Reference to be confirmed].
+Butler, Simon (2016). Analysing Java Identifier Names. PhD thesis, 
+The Open University.
 
 JIM incorporates the following elements: 
 

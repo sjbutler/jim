@@ -7,6 +7,11 @@ location in source code. The resulting database can then be used as a
 source of information for empirical research that reduces the overhead
 of repeatedly parsing large bodies of source code. 
 
+NB this version of JIM is no longer being developed and is preserved at v0.6.0. 
+JIM is being revised and will be released as a set of component libraries that 
+are intended to make it much easier to incorporate the functionality into 
+other applications. 
+
 ## Requirements
 
 JIM requires Java v8 to run. JIM runs best on computers with multiple cores 
